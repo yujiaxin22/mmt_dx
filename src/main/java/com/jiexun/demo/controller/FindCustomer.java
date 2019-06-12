@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class FindCustomer {
     @RequestMapping("findOne")
     public @ResponseBody String getCust(){
+        System.out.println("222222222222");
         return "hello cust";
     }
 }
