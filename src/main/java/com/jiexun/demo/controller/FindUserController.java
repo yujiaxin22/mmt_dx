@@ -27,7 +27,7 @@ public class FindUserController {
     @PostMapping("findByCondition")
     public @ResponseBody UserInfo findByCondition(@RequestParam(value = "id") int id,@RequestParam(value = "name") String name){
         UserInfo userInfo = new UserInfo();
-        userInfo.setName("yujiaxin"+id);
+        userInfo.setName("yujiaxin22"+id);
         userInfo.setPassword(name);
         return  userInfo;
     }
