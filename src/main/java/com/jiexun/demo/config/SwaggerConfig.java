@@ -27,7 +27,7 @@ public class SwaggerConfig {
         return new ApiInfoBuilder()
                 .title("maven构建Spring boot项目")
                 .description("maven构建Spring boot项目 集成mybatis使用pagehelper插件 ，实现热部署 by 陈晨")
-                .termsOfServiceUrl("http://localhost:8080/swagger-ui.html")
+                .termsOfServiceUrl("http://localhost:9091/swagger-ui.html")
                 .contact("chenchen")
                 .version("1.0")
                 .build();
