@@ -19,7 +19,7 @@ public class FindUserController {
     @GetMapping("findOne")
     public @ResponseBody UserInfo findOne(){
         UserInfo userInfo = new UserInfo();
-        userInfo.setName("yujiaxin");
+        userInfo.setName("yujiaxin111");
         userInfo.setPassword("12345611");
         return  userInfo;
     }
